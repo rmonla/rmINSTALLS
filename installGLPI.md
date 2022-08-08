@@ -58,4 +58,7 @@ Activo permisos en el directosrio.
 
     sudo chown -R www-data:www-data /var/www/html/
        
+### Paso 5: Último seguir los pasos del asistente de instalación del GLPI.
+
+    [http://127.0.0.1/glpi/install/install.php](http://127.0.0.1/glpi/install/install.php)
 
