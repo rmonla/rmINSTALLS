@@ -60,5 +60,5 @@ Activo permisos en el directosrio.
        
 ### Paso 5: Último seguir los pasos del asistente de instalación del GLPI.
 
-    [http://127.0.0.1/glpi/install/install.php](http://127.0.0.1/glpi/install/install.php)
+[http://127.0.0.1/glpi/install/install.php](http://127.0.0.1/glpi/install/install.php)
 
