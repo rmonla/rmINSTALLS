@@ -4,6 +4,7 @@
 - MariaDB >= 10.2 or MySQL >= 5.7
 - PHP (See compatibility matrix below)
 
+
 ## Referencia 1 [How To Install GLPI on Ubuntu 20.04/18.04](https://computingforgeeks.com/how-to-install-glpi-on-ubuntu-linux/)
 
 ### Paso 1: Actualizar índices y repoositorios.
@@ -41,5 +42,11 @@ Instalar Apache
     
     sudo apt-get -y install apache2 libapache2-mod-php
 
+### Paso 4: Descargar e instalar GLPI
+
+Ver [última versón del GLPI](https://glpi-project.org/downloads/) 
+        
+    export VER="10.0.2"
+    wget https://github.com/glpi-project/glpi/releases/download/$VER/glpi-$VER.tgz
 
 
