@@ -44,9 +44,18 @@ Instalar Apache
 
 ### Paso 4: Descargar e instalar GLPI
 
-Ver [última versón del GLPI](https://glpi-project.org/downloads/) 
+Ver [última versión del GLPI](https://glpi-project.org/downloads/) 
         
     export VER="10.0.2"
     wget https://github.com/glpi-project/glpi/releases/download/$VER/glpi-$VER.tgz
 
+Descomprimo y paso al directorio del apache.   
+    
+    tar xvf glpi-$VER.tgz
+    sudo mv glpi /var/www/html/
+    
+Activo permisos en el directosrio.
+
+    sudo chown -R www-data:www-data /var/www/html/
+       
 
